@@ -6,10 +6,13 @@ public class caixaeletronico {
 
 	// Cédulas no caixa
 	private static int[] notas = { 100, 50, 50, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 };
-	
+
 	// Saldo do cliente
 	private static int currentBalance = 300;
 
+	/*
+	 * Método principal: main() Propósito: startar aplicação ;)
+	 */
 	public static void main(String[] args) {
 
 		boolean hasMoney = false;
@@ -24,9 +27,8 @@ public class caixaeletronico {
 
 			hasMoney = QueryBalance(saqueValue);
 
-			
-// 			Trecho que usei para testar a função removeNotes 
- 			WriteInTheScreen("A maior é: " + String.valueOf(findBiggerNote(0)));
+			// Trecho que usei para testar a função removeNotes
+			WriteInTheScreen("A maior é: " + String.valueOf(findBiggerNote(0)));
 
 			WriteInTheScreen("A menor é: " + String.valueOf(findSmallerNote(0)));
 
