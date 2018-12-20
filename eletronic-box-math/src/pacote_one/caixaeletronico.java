@@ -11,7 +11,7 @@ public class caixaeletronico {
 	private static int currentBalance = 300;
 
 	/*
-	 * Método principal: main() Propósito: startar aplicação :)
+	 * Método principal: main() Propósito: startar aplicação :D
 	 */
 	public static void main(String[] args) {
 
